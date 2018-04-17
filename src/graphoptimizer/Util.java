@@ -7,7 +7,10 @@
 package graphoptimizer;
 
 import commonutils.data.Pair;
+import java.util.List;
 import java.util.Map;
+import no.uib.cipr.matrix.Matrix;
+import no.uib.cipr.matrix.sparse.LinkedSparseMatrix;
 
 /**
  * TODO add author
@@ -24,6 +27,23 @@ public class Util {
         
         map.put(edge(from, to), weight);
         
+    }
+    
+    public Matrix AdjacencyMatrix(GraphAL graph) {
+        
+        int n = graph.GetNumVerts();
+        LinkedSparseMatrix mat = new LinkedSparseMatrix(n, n);
+        
+        List<Pair<Integer, Integer>> conns = graph.GetConnections();
+        
+        conns.stream().map((p) -> {
+            mat.add(p.first(), p.second(), 1);
+            return p;
+        }).forEachOrdered((p) -> {
+            mat.add(p.second(), p.first(), 1);
+        });
+        
+        return mat;
     }
     
 }
