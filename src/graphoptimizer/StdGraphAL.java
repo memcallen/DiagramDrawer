@@ -14,7 +14,7 @@ import org.joml.Vector2d;
 /**
  * Basic GAL implementation, no spatial information
  * Minimum for Djikstra's algorithm
- * @author AZ
+ * @author Memcallen
  */
 public class StdGraphAL implements GraphAL{
 
@@ -65,5 +65,5 @@ public class StdGraphAL implements GraphAL{
         
         return out;
     }
-    
+
 }

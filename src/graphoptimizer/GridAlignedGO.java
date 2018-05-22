@@ -11,14 +11,11 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Collectors;
-import org.joml.Vector2i;
 
 /**
- * TODO add author
- *
- * @author
+ * 
+ * @author Memcallen
  */
 public class GridAlignedGO implements GraphSolver {
 

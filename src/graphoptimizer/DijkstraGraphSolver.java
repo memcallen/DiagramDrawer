@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  *
- * @author azalac0020
+ * @author Memcallen
  */
 public class DijkstraGraphSolver implements GraphSolver {
 

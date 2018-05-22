@@ -7,7 +7,7 @@ package graphoptimizer;
 
 /**
  *
- * @author azalac0020
+ * @author Memcallen
  */
 public interface GraphSolver {
     

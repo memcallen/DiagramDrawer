@@ -8,10 +8,11 @@ package graphoptimizer;
 import commonutils.data.Pair;
 import static graphoptimizer.Util.*;
 import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  *
- * @author azalac0020
+ * @author Memcallen
  */
 public class GraphOptimizer {
 
@@ -48,6 +49,24 @@ public class GraphOptimizer {
         dgs.Process(gal);
         
         System.out.println(dgs.GetPath(0) + ":" + dgs.DistanceTo(0));
+        
+        HashMap<Integer, HashSet<Integer>> edges2 = new HashMap<>();
+        
+        Util.edge(edges2, "1=[2, 4]");
+        Util.edge(edges2, "2=[1, 3]");
+        Util.edge(edges2, "3=[2]");
+        Util.edge(edges2, "4=[1]");
+        
+        System.out.println("Edges:\n" + edges2);
+        
+        HashMap<Integer, Integer> types = new HashMap<>();
+        
+        Util.types(types, "[1, 2]=1");
+        Util.types(types, "[3, 4]=0");
+        
+        System.out.println("Types:\n" + types);
+        
+        System.out.println("Graph Hash:" + GraphHasher.GetLargestHash(edges2, types));
     }
     
 }

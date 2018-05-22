@@ -7,8 +7,8 @@
 package graphoptimizer;
 
 /**
- * TODO add author
- * @author
+ * 
+ * @author Memcallen
  */
 public class Output {
 

@@ -11,7 +11,7 @@ import org.joml.Vector2d;
 
 /**
  *
- * @author azalac0020
+ * @author Memcallen
  */
 public class SpatialGraphAL implements GraphAL{
 
@@ -54,5 +54,5 @@ public class SpatialGraphAL implements GraphAL{
     public List<Pair<Integer, Integer>> GetConnections() {
         return conns;
     }
-    
+
 }
