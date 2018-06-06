@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <elements>
 	<element>
 		<Electronegativity>2.2</Electronegativity>
@@ -17,7 +17,7 @@
 		<YoungModulus>Unknown</YoungModulus>
 		<ShearModulus>Unknown</ShearModulus>
 		<VickersHardness>Unknown</VickersHardness>
-		<Name> Hydrogen</Name>
+		<Name>Hydrogen</Name>
 		<CommonIons>H+</CommonIons>
 		<SecondIonization>Unknown</SecondIonization>
 		<Mass>1.00794</Mass>
@@ -184,8 +184,7 @@
 		<ElectronAffinity>153.9</ElectronAffinity>
 		<AtomicNumber>6</AtomicNumber>
 		<MohsHardness>0.5</MohsHardness>
-		<EmpiricalRadius>70
-</EmpiricalRadius>
+		<EmpiricalRadius>70</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>3.04</Electronegativity>
@@ -681,8 +680,7 @@
 		<ElectronAffinity>7.6</ElectronAffinity>
 		<AtomicNumber>22</AtomicNumber>
 		<MohsHardness>6</MohsHardness>
-		<EmpiricalRadius>140
-</EmpiricalRadius>
+		<EmpiricalRadius>140</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.63</Electronegativity>
@@ -744,8 +742,7 @@
 		<ElectronAffinity>64.3</ElectronAffinity>
 		<AtomicNumber>24</AtomicNumber>
 		<MohsHardness>8.5</MohsHardness>
-		<EmpiricalRadius>140
-</EmpiricalRadius>
+		<EmpiricalRadius>140</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.55</Electronegativity>
@@ -807,8 +804,7 @@
 		<ElectronAffinity>15.7</ElectronAffinity>
 		<AtomicNumber>26</AtomicNumber>
 		<MohsHardness>4</MohsHardness>
-		<EmpiricalRadius>140
-</EmpiricalRadius>
+		<EmpiricalRadius>140</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.88</Electronegativity>
@@ -839,8 +835,7 @@
 		<ElectronAffinity>63.7</ElectronAffinity>
 		<AtomicNumber>27</AtomicNumber>
 		<MohsHardness>5</MohsHardness>
-		<EmpiricalRadius>135
-</EmpiricalRadius>
+		<EmpiricalRadius>135</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.91</Electronegativity>
@@ -902,8 +897,7 @@
 		<ElectronAffinity>118.4</ElectronAffinity>
 		<AtomicNumber>29</AtomicNumber>
 		<MohsHardness>3</MohsHardness>
-		<EmpiricalRadius>135
-</EmpiricalRadius>
+		<EmpiricalRadius>135</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.65</Electronegativity>
@@ -1554,8 +1548,7 @@
 		<ElectronAffinity>107.3</ElectronAffinity>
 		<AtomicNumber>50</AtomicNumber>
 		<MohsHardness>1.5</MohsHardness>
-		<EmpiricalRadius>145
-</EmpiricalRadius>
+		<EmpiricalRadius>145</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>2.05</Electronegativity>
@@ -1989,8 +1982,7 @@
 		<ElectronAffinity>222.8</ElectronAffinity>
 		<AtomicNumber>79</AtomicNumber>
 		<MohsHardness>2.5</MohsHardness>
-		<EmpiricalRadius>135
-</EmpiricalRadius>
+		<EmpiricalRadius>135</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>2</Electronegativity>
@@ -2021,8 +2013,7 @@
 		<ElectronAffinity>0</ElectronAffinity>
 		<AtomicNumber>80</AtomicNumber>
 		<MohsHardness>Unknown</MohsHardness>
-		<EmpiricalRadius>150
-</EmpiricalRadius>
+		<EmpiricalRadius>150</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.62</Electronegativity>
@@ -2053,8 +2044,7 @@
 		<ElectronAffinity>19.2</ElectronAffinity>
 		<AtomicNumber>81</AtomicNumber>
 		<MohsHardness>1.2</MohsHardness>
-		<EmpiricalRadius>190
-</EmpiricalRadius>
+		<EmpiricalRadius>190</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>2.33</Electronegativity>
@@ -2085,8 +2075,7 @@
 		<ElectronAffinity>35.1</ElectronAffinity>
 		<AtomicNumber>82</AtomicNumber>
 		<MohsHardness>1.5</MohsHardness>
-		<EmpiricalRadius>180
-</EmpiricalRadius>
+		<EmpiricalRadius>180</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>2.02</Electronegativity>
@@ -2799,8 +2788,7 @@
 		<ElectronAffinity>50</ElectronAffinity>
 		<AtomicNumber>58</AtomicNumber>
 		<MohsHardness>2.5</MohsHardness>
-		<EmpiricalRadius>185
-</EmpiricalRadius>
+		<EmpiricalRadius>185</EmpiricalRadius>
 	</element>
 	<element>
 		<Electronegativity>1.13</Electronegativity>

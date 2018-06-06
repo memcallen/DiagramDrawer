@@ -16,7 +16,7 @@ for line in data:
 	s = line.split(',')
 	for i in range(len(headers)):
 		el = ET.SubElement(curr, headers[i])
-		el.text = s[i]
+		el.text = s[i].strip()
 
 data.close()		
 
